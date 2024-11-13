@@ -27,11 +27,6 @@ nav{
 }
 
 
-/* .logo{
-    
-    width: 20px px;
-} */
-
 nav ul li{
     display: inline-block;
     list-style: none;
@@ -55,33 +50,39 @@ nav ul li a{
     color: rgb(173, 84, 224);
 }
 
+#project{
+    color: blueviolet;
+    font-weight: bold;
+    position: relative;
+    left: 900px;
+    margin-top: 480px;
+    
+        
+}
+
 /* --------about--------- */
 #about{
     padding: 10px 0;
     color: black;
 }
-/* #about-txt{
-    font-size: 60;
-    font-weight: 600;
-    color: blue;
-    
-} */
-.tab-titles{
-    /* display: flex; */
+
+span{
     margin: 20px 0 40px;
-    font-style:italic;
-    
+    font-style:normal;
+    font-size: large;
+    font-weight: bold;
+    }
 
-}
+ 
 
-.tab-links{
+/* .tab-links{
     margin-right: 50px;
     font-size: 18px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
 
-}
+} */
 /* -----------services--------- */
 
 #services{
