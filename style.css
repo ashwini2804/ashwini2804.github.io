@@ -41,15 +41,18 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
 }
-.header-text{
-    margin-top: 8%;
-    font-size: 30px ;
-    color: rgb(157, 79, 202);
-}
+
 .header-text h1{
-    margin-top: 0%;
+    margin-top: 11%;
     font-size: 60px;
-    color:rgb(238, 68, 56) ;
+    color:rgb(90, 52, 160) ;
+}
+
+.header-text{
+    margin-top: 0%;
+    margin: 0%;
+    font-size: 30px ;
+    color: rgb(173, 84, 224);
 }
 
 /* --------about--------- */
@@ -64,8 +67,11 @@ nav ul li a{
     
 } */
 .tab-titles{
-    display: flex;
+    /* display: flex; */
     margin: 20px 0 40px;
+    font-style:italic;
+    
+
 }
 
 .tab-links{
@@ -75,4 +81,15 @@ nav ul li a{
     cursor: pointer;
     position: relative;
 
+}
+/* -----------services--------- */
+
+#services{
+    padding: 5px 0;
+    color: black;
+}
+
+#contact{
+    padding: 5px 0;
+    color: black;
 }
