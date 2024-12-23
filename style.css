@@ -93,6 +93,56 @@ span{
         display: flex;
     }
 
+
+
+
+    .about-down{
+        height: 100%;
+        width: 100%;
+      
+        /* background-color: red; */
+        padding-left: 60px;
+        padding-top: 50px;
+        padding-right: 50px;
+        
+    }
+    .about-down-h1{
+        color: black;
+    }
+    
+    /* Skills Section */
+.skill-icon{
+    width: 50px;  /* Set the size for each skill icon */
+    height: 50px;
+}
+/* 
+.about-right-skills-container{
+display:grid;
+grid-template-columns: repeat(auto-fit, minmax(150px, 2fr));
+gap: 20px;
+padding-top: 20px;
+} */
+
+.about-down-skills-container
+{
+display: grid;
+grid-template-columns: repeat(6,1fr); /* Fixed 4-column layout */
+gap: 34px;
+padding-top: 20px;
+} 
+
+/* .about-right-skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+    margin-block: 1.5rem;
+
+} */
+
+/* .about-down-skills-container:hover{
+    color: palegreen;
+} */
   /* -----------Projects-------- */
  /* #project{
     padding: 10px 10px;
