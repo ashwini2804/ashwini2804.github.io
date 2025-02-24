@@ -374,9 +374,9 @@ margin-top: ;
 .container-right-1 img{
     /* padding-right: 30%; */
 margin-left: 10px;
-margin-right: 10px;
-margin-top: 70px;
+margin-right: 4px;
+margin-top: -150px;
 height: 100%;
-width: 100%;
+width: 90%;
 
 }
